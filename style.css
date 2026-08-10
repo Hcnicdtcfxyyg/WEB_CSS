@@ -3,12 +3,14 @@ html{
     font-size:100%;
 }
 body{
-    background-color:#fffeee;
+    background-color:#fffeee34;
 }
 h1{
-    color:rgb(0, 122, 221);
+    color:rgba(0, 206, 221, 0.562);
     font-size:10rem;
-    font-family:serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h2{
     font-family: "游ゴシック体", "Yu Gothic", "YuGothic", sans-serif;
@@ -28,4 +30,8 @@ div p{
 OS対策: MacにはあるがWindowsにはないフォント（またはその逆）に対応するため
 優先順位: 左から順に探して、「端末に入っている最初のフォント」で表示する
 フォントの保険: 一番最後の sans-serif は、全滅したときに「端末の標準ゴシック体」で出すための保険
+*/
+/*Googleフォント
+https://fonts.google.com/
+https://fonts.google.com/selection/embed
 */
