@@ -58,6 +58,12 @@ ol{
 .blue{
     color:#0bd;
 }
+.red{
+    font-size:20px;
+}
+#orange{
+    color:#fa2;
+}
 /*
 OS対策: MacにはあるがWindowsにはないフォント（またはその逆）に対応するため
 優先順位: 左から順に探して、「端末に入っている最初のフォント」で表示する
