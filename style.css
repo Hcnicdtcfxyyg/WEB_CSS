@@ -73,3 +73,32 @@ OS対策: MacにはあるがWindowsにはないフォント（またはその逆
 https://fonts.google.com/
 https://fonts.google.com/selection/embed
 */
+
+/*レイアウト*/
+.item{
+    background: #0bd;
+    color:#fff;
+    /*
+    margin:10px;
+    padding:10px;
+    */
+}
+.container{
+    /*Flexboxの記述
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:stretch;
+    height:100vh;*/
+
+    /*CSSグリッド*/
+    display:grid;
+    grid-template-columns:1fr 200px 200px;
+    gap:10px;
+    grid-template-rows:200px 200px;
+}
+/*リセットCSS
+
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+*/
