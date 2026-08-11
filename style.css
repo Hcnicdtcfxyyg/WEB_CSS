@@ -35,6 +35,7 @@ p{
     border-width:thick;
     border-style:solid;
     border-color:aqua tan firebrick fuchsia;
+    
 }
 div p{
     background:#22ff0e;
@@ -46,7 +47,17 @@ div p{
     color:rgb(195, 0, 255);
     font-weight:bold;
 }
-
+ul{
+        list-style-type:hiragana;
+        list-style-position:outside;
+    }
+ol{
+    /*list-style-image プロパティには画像サイズを変更（拡大・縮小）する機能がありません。*/
+    list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnUiLMnkLXbnoaFBBBH_3H-E_jYb4t5gEinCnpLoG7pw&s=10);
+}
+.blue{
+    color:#0bd;
+}
 /*
 OS対策: MacにはあるがWindowsにはないフォント（またはその逆）に対応するため
 優先順位: 左から順に探して、「端末に入っている最初のフォント」で表示する
