@@ -3,7 +3,12 @@ html{
     font-size:100%;
 }
 body{
-    background-color:#fffeee34;
+    background-color:#ff0e0e;
+    background-image:url(https://tsukatte.com/wp-content/uploads/2022/02/radiation_BG_01_yellow.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    min-height:100vh;
+    background-position:30px 80px;
 }
 h1{
     color:rgba(0, 206, 221, 0.562);
@@ -11,6 +16,13 @@ h1{
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 400;
   font-style: normal;
+  /*バックグラウンド一括指定の記述例*/
+  background:#0e22ff
+  url(https://cdn-ak.f.st-hatena.com/images/fotolife/p/peaceheart/20220403/20220403222221.gif)
+  no-repeat
+  30px 80px/
+  contain;
+  border-bottom:10px solid rgb(206, 221, 0);
 }
 h2{
     font-family: "游ゴシック体", "Yu Gothic", "YuGothic", sans-serif;
@@ -20,9 +32,18 @@ p{
     font-family:"ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro",sans-serif;
     line-height:0.5;
     text-align:center;
+    border-width:thick;
+    border-style:solid;
+    border-color:aqua tan firebrick fuchsia;
 }
 div p{
-    color:red;
+    background:#22ff0e;
+    width:500px;
+    height:300px;
+    margin-top:30px;
+    margin-left:100px;
+    padding:40px;
+    color:rgb(195, 0, 255);
     font-weight:bold;
 }
 
